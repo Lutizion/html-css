@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Lovejuju';
+            src: url('fonts/jully julia.otf') format('opentype'), url('fonts/jully julia.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+
+            /*
+                Tipos de format()
+                - opentype (oft)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1, h2 {
+            font-family: 'Lovejuju', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nam, adipisci cumque blanditiis ab voluptatum aliquam quidem. Voluptas at, iste distinctio labore sit animi ea ducimus iusto error sequi inventore.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nulla illum voluptates ab rem ratione nesciunt placeat assumenda! Molestias vel inventore id modi excepturi ducimus iusto quis. Cupiditate, est nostrum.</p>
+    
+</body>
+</html>

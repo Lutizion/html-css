@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+    background-color:#37c5e1;
+    text-align: center;
+}
+
+p {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+ul {
+    list-style-position: outside;
+    padding: 0;
+    margin: auto;
+    display: inline-block;
+    text-align: left; /* Mantém o texto dos itens alinhado à esquerda */
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
