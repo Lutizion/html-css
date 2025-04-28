@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body::before {
+    content: '';
+    background-color: #00000078;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.logo img {
+    height: 56px;
+    width: 158px;
+}
+
+.header {
+    padding: 18px 48px;
+    position: relative;
+    margin-left: 120px;
+}
+
+.login {
+    margin:0;
+    padding: 60px;
+    position: relative;
+    max-width: 450px;
+    margin-top: -18px;
+    margin-left: 50%;
+    margin-bottom: 36px;
+    background-color: #000000bf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.login h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-top: 0;
+    text-align: start;
+}
+
+.login input {
+    background-image: var();
+    height: 53px;
+    width: 100%;
+    color: #ffff;
+    background-color: #00000033;
+    border: 1px solid #ffffff5c;
+    border-radius: 6px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login input:hover {
+    cursor:text;
+}
+
+.input_box {
+    margin-bottom: 20px;
+}
+
+.input_box input::placeholder {
+    font-size: 16px;
+    color:#ffffff8d;
+}
+
+.login button {
+    height: 40px;
+    width: 100%;
+    color: #e3e0e0;
+    border-radius: 3.5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color: #e50914;
+}
+
+.submit:hover {
+    background-color: #c10811;
+    cursor: pointer;
+}
+
+.acess_code {
+    background-color: #7170705d;
+}
+
+.acess_code:hover {
+    background-color: #55555551;
+    cursor: pointer;
+}
+
+div > p {
+    color: #ffffffa7;
+    text-align: center;
+}
+
+.help {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.help > a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.support input {
+    height: 20px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.remember label {
+    color: #ffffff;
+    margin-left: -8px;
+    height: 22px;
+    font-size: 16px;
+}
+
+.remember input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #ffffff;
+}
+
+.remember p {
+    font-size: 16px;
+    color: #ffffffeb;
+    transform: translateX(6px);
+}
+
+.sign_up {
+    color: #737373;
+    font-size: 16px;
+    
+}
+
+.sign_up p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.sign_up a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sign_up a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    color: #737373;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.terms p {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.terms a {
+    color: #0071eb;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
